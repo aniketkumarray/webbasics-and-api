@@ -1,0 +1,49 @@
+
+
+
+about dns lookup
+This test will list DNS records for a domain in priority order. The DNS lookup is done directly against the domain's authoritative name server, so changes to DNS Records should show up instantly. By default, the DNS lookup tool will return an IP address if you give it a name (e.g. www.example.com)
+
+we get the following result for facebook.com
+
+
+
+	Certificate	
+ 	Primary
+Common Name: *.facebook.com
+
+Issuer: DigiCert SHA2 High Assurance Server CA
+Expires: 10 months
+Valid From: 12/14/2017
+Valid To: 3/22/2019
+Serial: 0B3C3B601A18F59EE2B6BB05605EF2C0
+Algorithm: sha256RSA
+Organization: Facebook, Inc.
+Location: Menlo Park,California,US
+Remind Me
+ 	Common Name: DigiCert SHA2 High Assurance Server CA
+
+Issuer: DigiCert High Assurance EV Root CA
+Expires: Never
+Valid From: 10/22/2013
+Valid To: 10/22/2028
+Serial: 04E1E7A4DC5CF2F36DC02B42B85D159F
+Algorithm: sha256RSA
+Organization: DigiCert Inc
+Location: US
+ 	Common Name: DigiCert High Assurance EV Root CA
+
+Issuer: DigiCert High Assurance EV Root CA
+Expires: Never
+Valid From: 11/9/2006
+Valid To: 11/9/2031
+Serial: 02AC5C266A0B409B8F0B79F2AE462577
+Algorithm: sha1RSA
+Organization: DigiCert Inc
+Location: US
+Test	Result
+	HTTP Connect	
+	HTTP Filter	
+	HTTP Delay Check	Success - response in 845 ms
+	HTTPS Certificate Check	
+	HTTPS Certificate Expiration	
