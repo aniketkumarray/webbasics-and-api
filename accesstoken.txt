@@ -1,0 +1,22 @@
+The Access Token is a credential that can be used by an application to 
+access an API.
+
+It can be any type of token (such as an opaque string or a JWT) and is 
+meant for an API. Its purpose is to inform the API that the bearer of 
+this token has been authorized to access the API and perform specific 
+actions (as specified by the scope that has been granted).
+
+The Access Token should be used as a Bearer credential and transmitted 
+in an HTTP Authorization header to the API.
+
+To generate your git access token
+1) open and login in ,in your github profile
+2)goto setting
+3) goto developer setting
+4) select personal access tokens
+5) fill the token description
+6) select scope
+7) generate token
+8)copy the token and use it 
+
+3f43a9961587871f4e93b0c55ba2d05aa3c5b94f
